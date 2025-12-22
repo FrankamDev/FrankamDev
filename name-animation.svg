@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes pulse {
+      0%, 100% { 
+        filter: drop-shadow(0 0 10px #a855f7);
+      }
+      50% { 
+        filter: drop-shadow(0 0 30px #06b6d4) drop-shadow(0 0 40px #3b82f6);
+      }
+    }
+    text {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 52px;
+      font-weight: 800;
+      fill: url(#gradient);
+      animation: pulse 3s ease-in-out infinite;
+    }
+  </style>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  
+  <text x="400" y="70" text-anchor="middle" dominant-baseline="middle">
+    Hey, je suis Frank Kamgang 👋
+  </text>
+</svg>
