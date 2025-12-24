@@ -98,7 +98,6 @@
   ### 🌍 About Me
   - Bilingual: Fluent in **English** and **French**  
   - Currently learning **German** – driven by a passion for lifelong learning  
-  - This is my secondary GitHub account (primary account was suspended)
 
   <img src="https://komarev.com/ghpvc/?username=frankamdev-pixel&color=a855f7&style=flat-square&label=Profile+views" alt="Profile views"/>
 </div>
